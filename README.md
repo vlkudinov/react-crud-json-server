@@ -1,6 +1,11 @@
-# react-redux-server
+# react-crud-json-server
 
-App example of create-react-app with react-redux, working on express.js server
+Simple example of CRUD app based on  [create-react-app](https://github.com/facebook/create-react-app) and [react-redux](https://github.com/reduxjs/react-redux).
+Server is running on [json-server](https://github.com/typicode/json-server/tree/d1f9940025d6f70e62b479aea2dca3cb092f0c20) 
+
+## Demo
+
+Running version of the app at: https://react-crud-json-server.herokuapp.com/
 
 ## Installation
 ```
@@ -25,7 +30,7 @@ $ make dev
 ```
 $ cd app 
 $ npm run build
-$ cd .. npm start
+$ npm start
 
 or
 
@@ -40,8 +45,4 @@ or
 
 $ make build
 ```
-
-## Demo
-
-Running version of the app at: https://react-redux-server.herokuapp.com/
 
