@@ -1,0 +1,31 @@
+#root {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+.App {
+  height: 100%;
+  display: flex;
+  min-height: 100%;
+  width: 70%;
+  min-width: 800px;
+
+}
+.ant-layout {
+  padding: 50px;
+}
+
+.ant-calendar-picker {
+  width: 100%;
+}
+
+
+.actions,
+.form-container,
+.table-container {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+}

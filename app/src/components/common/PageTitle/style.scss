@@ -1,0 +1,22 @@
+.page-title {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding: 10px 0 10px 20px;
+  border-left: 3px solid #d6d6d6;
+  &__title {
+    display: flex;
+    flex-grow:0;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #545454;
+  }
+  &__divider{
+    flex-grow:1;
+    height: 1px;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-color: #d6d6d6;
+  }
+}

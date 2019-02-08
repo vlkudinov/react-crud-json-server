@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# Local development
+.env
+.dev
+.DS_Store
+.idea
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
