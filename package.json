@@ -4,7 +4,9 @@
 	"description": "Simple json-base database to deploy to Heroku",
 	"main": "server.js",
 	"scripts": {
-		"start": "json-server index.js --watch --static ./app/build ----port 3004"
+		"start": "node server",
+		"dev": "nodemon server",
+		"heroku-postbuild": "cd app/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
 	},
 	"keywords": [
 		"json-server,heroku, node, REST API"
