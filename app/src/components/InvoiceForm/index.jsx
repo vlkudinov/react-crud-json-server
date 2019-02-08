@@ -49,12 +49,12 @@ class InvoiceForm extends React.Component {
         <InputGroup size="large">
           <Col xl={11}>
             <Form.Item label="Name" >
-              {getFieldDecorator("name", config)(<Input/>)}
+              {getFieldDecorator("name", config)(<Input placeholder='Name'/>)}
             </Form.Item>
           </Col>
           <Col xl={{span:11, offset:2}}>
             <Form.Item label="Country" >
-              {getFieldDecorator("country", config)(<Input/>)}
+              {getFieldDecorator("country", config)(<Input placeholder='Country'/>)}
             </Form.Item>
           </Col>
         </InputGroup>
